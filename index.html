@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<html lang="zh-tw">
+
+<head>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap" rel="stylesheet">
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>新北市YouBike租賃系統</title>
+   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+   <script src="https://code.highcharts.com/highcharts.js"></script>
+   <script src="https://code.highcharts.com/highcharts-more.js"></script>
+   <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+   <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+   <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnF8RcDVdFIKNz5DEHDtGheObl0PM5woY&callback=initMap"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+   <script src="set.js"></script>
+   <link rel="stylesheet" type="text/css" href="set.css">
+
+</head>
+
+<body background="pic/picture.png" style=" position:auto" onload="startTime()">
+   <div id="map"></div>
+   <div id="box6"> <img src="pic/zhangbin.png"></div>
+   <div id="box8"> <img src="pic/kadacea.png"></div>
+   <div id="box5"> <img src="pic/erichaung.png"></div>
+   <div id="box3"> <img src="pic/kadacea.png"></div>
+   <div id="box9"> <img src="pic/kadacea.png"></div>
+   <div id="box7"> <img src="pic/znn.png"></div>
+   <div id="box13"> <img src="pic/transparent2.png"></div>
+   <div id="box"><img style="width: 450px;" src="pic/longtransparent.png"></div>
+   <div id="box10"><img src="pic/logo.png"></div>
+   <div id="box15"><img src="pic/cadaccc.png"></div>
+   <div id="box11"><img id="home" style="cursor:pointer;" value="Reload Page" onClick="document.location.reload(true)"
+         src="pic/homepage.png" onmouseout="changehome()" onmouseover="changehead()"></div>
+   <div id="box2">
+      <h1>新北市YouBike租賃系統</h1>
+   </div>
+   <div id="clock"></div>
+   <div id="container"></div>
+   <div id="box12"></div>
+   <div id="box4">
+      <form method="post" action="#" name="form">
+         <select onchange="progress()" id="SelectArea">
+            <option style="font-weight:bold">請選擇場站區域</option>
+            <option style="font-weight:bold">淡水區</option>
+            <option style="font-weight:bold">八里區</option>
+            <option style="font-weight:bold">三芝區</option>
+            <option style="font-weight:bold">三重區</option>
+            <option style="font-weight:bold">三峽區</option>
+            <option style="font-weight:bold">土城區</option>
+            <option style="font-weight:bold">中和區</option>
+            <option style="font-weight:bold">五股區</option>
+            <option style="font-weight:bold">永和區</option>
+            <option style="font-weight:bold">石門區</option>
+            <option style="font-weight:bold">汐止區</option>
+            <option style="font-weight:bold">板橋區</option>
+            <option style="font-weight:bold">林口區</option>
+            <option style="font-weight:bold">金山區</option>
+            <option style="font-weight:bold">泰山區</option>
+            <option style="font-weight:bold">深坑區</option>
+            <option style="font-weight:bold">新店區</option>
+            <option style="font-weight:bold">新莊區</option>
+            <option style="font-weight:bold">瑞芳區</option>
+            <option style="font-weight:bold">萬里區</option>
+            <option style="font-weight:bold">樹林區</option>
+            <option style="font-weight:bold">蘆洲區</option>
+            <option style="font-weight:bold">鶯歌區</option>
+         </select>
+      </form>
+   </div>
+   <div id="out"></div>
+   <div id="box14"></div>
+
+</body>
+
+</html>

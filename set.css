@@ -1,0 +1,281 @@
+    #map {
+       position: absolute;
+       top: 25%;
+       left: 0;
+       height: 380px;
+       width: 380px;
+       z-index: 1;
+       left: 1100px;
+       top: 225px;
+    }
+
+    #box4 {
+       width: 150px;
+       height: 100px;
+       position: absolute;
+       top: 110px;
+       left: 200px;
+    }
+
+    #box3 {
+       width: 100px;
+       height: 100px;
+       position: fixed;
+       animation-name: example;
+       animation-iteration-count: infinite;
+       animation-duration: 7s;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+
+    #box8 {
+       width: 100px;
+       height: 100px;
+       position: fixed;
+       animation-name: example8;
+       animation-iteration-count: infinite;
+       animation-duration: 7s;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+
+    #box9 {
+       width: 100px;
+       height: 100px;
+       position: fixed;
+       animation-name: example9;
+       animation-iteration-count: infinite;
+       animation-duration: 19s;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+
+    #box5 {
+       width: 100px;
+       height: 100px;
+       position: fixed;
+       animation-name: example2;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+
+    #box6 {
+       width: 100px;
+       height: 100px;
+       position: fixed;
+       animation-iteration-count: infinite;
+       animation-name: example3;
+       animation-duration: 13s;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+
+    #box7 {
+       width: 100px;
+       height: 100px;
+       position: fixed;
+       animation-name: example4;
+       animation-iteration-count: infinite;
+       animation-duration: 7s;
+       animation-play-state: running;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+    }
+
+    #box10 {
+       position: fixed;
+       top: 15px;
+       left: 200px;
+    }
+
+    #box11 {
+       position: fixed;
+       top: 0px;
+       left: 1450px;
+       height=80px;
+    }
+
+    #box13 {
+       position: fixed;
+       right: 1.5px;
+    }
+
+    #box15 {
+       opacity: 0;
+       position: fixed;
+       left: 750px;
+       top: 430px;
+    }
+
+    @keyframes example {
+       0% {
+          left: -550px;
+          top: 400px;
+       }
+       100% {
+          left: 1600px;
+          top: 400px;
+       }
+    }
+
+    @keyframes example9 {
+       0% {
+          left: -1050px;
+          top: 410px;
+       }
+       100% {
+          left: 1600px;
+          top: 410px;
+       }
+    }
+
+    @keyframes example8 {
+       0% {
+          left: -1550px;
+          top: 390px;
+       }
+       100% {
+          left: 1600px;
+          top: 390px;
+       }
+    }
+
+    @keyframes example2 {
+       0% {
+          left: -2000px;
+          top: 240px;
+       }
+       100% {
+          left: 1600px;
+          top: 240px;
+       }
+    }
+
+    @keyframes example3 {
+       0% {
+          left: -1500px;
+          top: 240px;
+       }
+       100% {
+          left: 1600px;
+          top: 240px;
+       }
+    }
+
+    @keyframes example4 {
+       0% {
+          left: -1000px;
+          top: 110px;
+       }
+       100% {
+          left: 1600px;
+          top: 110px;
+       }
+    }
+
+    #box2 {
+       color: white;
+       border-radius: 25px;
+       text-shadow: 10px 10px 10px black, 0 0 45px rgb(0, 0, 0), 0 0 5px rgba(153, 153, 204);
+       width: 510px;
+       height: 100px;
+       position: fixed;
+       top: -10px;
+       left: 750px;
+       text-align: center;
+       font-family: Microsoft JhengHei;
+    }
+
+    #box12 {
+       width: 480px;
+       text-align: center;
+       position: fixed;
+       left: 1050px;
+       top: 101px;
+       font-family: Microsoft JhengHei;
+       font-size: 0.6cm
+    }
+
+    #box {
+       position: fixed;
+       left: 55px;
+       top: 0px;
+    }
+
+    #out {
+       height: 400px;
+       position: fixed;
+       top: 200px;
+       left: 63px;
+       overflow: auto;
+       width: auto;
+    }
+
+    #clock {
+       color: black;
+       font: 5em sans-serif;
+       width: 347px;
+       text-align: center;
+       position: relative;
+       left: 100px;
+       top: 600px;
+       font-family: 'Changa', sans-serif;
+       font-size: 75px;
+       position: fixed;
+    }
+
+    #container {
+       font-family: Microsoft JhengHei;
+       width: 500px;
+       position: fixed;
+       top: 110px;
+       left: 525px;
+       overflow: auto;
+    }
+
+    #SelectArea {
+       cursor: pointer;
+       font-weight: bold;
+       width: 150px;
+       height: 40px;
+       border-radius: 20px;
+       border: 4px black double;
+    }
+
+    #box14 {
+       position: fixed;
+       left: 1200px;
+       top: 200px;
+    }
+
+    body {
+       font-family: sans-serif;
+       background-color: lightyellow;
+    }
+
+    table {
+       background-color: rgba(122, 61, 10, 0.1);
+       border-collapse: collapse;
+    }
+
+    td {
+       padding: 5px;
+       font-weight: bold;
+    }
+
+    tr:nth-child(odd) {
+       background-color: rgb(70, 117, 15, 0.1);
+    }
+
+    t {
+       position: absolute;
+       top: 800px;
+       left: 800px
+    }
